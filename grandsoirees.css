@@ -1,0 +1,16 @@
+body
+{
+	background-image: url('background.jpg');
+	background-repeat: repeat-x repeat-y;
+}
+
+img
+{
+	display: block;
+	margin: 0 auto;
+}
+
+#social img {
+        display: inline-block;
+        margin: 0 5px;
+}
