@@ -1,0 +1,56 @@
+body {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+}
+
+#site_header {
+  position: relative;
+  width: auto;
+  margin: 20px auto 20px auto;
+  max-width: 1400px;
+}
+
+#logo {
+  padding-left: 30px;
+  text-transform: uppercase;
+}
+
+#logo span {
+  font-weight: bold;
+}
+
+nav {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+nav ul li {
+  display: block;
+  float: left;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 20px;
+}
+
+nav a:hover {
+  color: #aaa;
+}
+
+#home_splash {
+  width: 100%;
+  /* TODO: adjust these based on actual splash image */
+  min-width: 1200px;
+  min-height: 500px;
+}
+
+#boxcontent {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 30px;
+}
